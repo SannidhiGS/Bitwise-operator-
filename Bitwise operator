@@ -1,0 +1,32 @@
+<?php
+// Bitwise AND operator
+$a = 5; // 0101 in binary
+$b = 3; // 0011 in binary
+
+$result = $a & $b; // Perform bitwise AND operation
+// The result will be 0001 in binary, which is 1 in decimal
+echo $result; // Output: 1
+
+// Bitwise OR operator
+$a = 5; // 0101 in binary
+$b = 3; // 0011 in binary
+
+$result = $a | $b; // Perform bitwise OR operation
+// The result will be 0111 in binary, which is 7 in decimal
+echo $result; // Output: 7
+
+// Bitwise XOR operator
+$a = 5; // 0101 in binary
+$b = 3; // 0011 in binary
+
+$result = $a ^ $b; // Perform bitwise XOR operation
+// The result will be 0110 in binary, which is 6 in decimal
+echo $result; // Output: 6
+
+// Bitwise NOT operator
+$a = 5; // 0101 in binary
+
+$result = ~$a; // Perform bitwise NOT operation
+// The result will be 1010 in binary, which is -6 in decimal (due to two's complement)
+echo $result; // Output: -6
+?>
